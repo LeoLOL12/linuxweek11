@@ -2,8 +2,8 @@
 Linux Week11 lab
 
 # Script 
-Filename: weather_chk
-Usage: Check weather of the current location (based on IP address) by using wttr.in
+- Filename: weather_chk
+- Usage: Check weather of the current location (based on IP address) by using wttr.in
 
 1. Make a new directory /home/vagrant/week11
 `mkdir /home/vagrant/week11`
@@ -16,12 +16,12 @@ Usage: Check weather of the current location (based on IP address) by using wttr
 - Usage: A service to execute script weather_chk
 
 1. Copy the wthr.service to /etc/systemd/system
-- `sudo cp wthr.service /etc/systemd/system`
+`sudo cp wthr.service /etc/systemd/system`
 
 
 # Timer
-Filename: wthr.timer
-Usage: A timer to run wthr.service hourly
+- Filename: wthr.timer
+- Usage: A timer to run wthr.service hourly
 
 1. Copy the wthr.timer to /etc/systemd/system
 `sudo cp wthr.timer /etc/systemd/system`
@@ -32,16 +32,16 @@ Usage: A timer to run wthr.service hourly
 
 
 # Result
-A file with weather informatoin will be created /home/vagrant/week11/weather.txt
-The file will be updated hourly
+- A file with weather informatoin will be created /home/vagrant/week11/weather.txt
+- The file will be updated hourly
 
 
 
 
 # Check the timer
-`systemctl status wthr.timer`
-Make sure it is in active status
+Run this to check the status of the timer `systemctl status wthr.timer`
+- Make sure it is in active status
 
 # List the timer
-`systemctl list-timers wthr.timer`
+Run this to list the timer details `systemctl list-timers wthr.timer`
 
