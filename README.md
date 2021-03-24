@@ -32,7 +32,7 @@ Linux Week11 lab
 
 
 # Result
-- A file with weather informatoin will be created /home/vagrant/week11/weather.txt
+- A file with weather information will be created /home/vagrant/week11/weather.txt
 - The file will be updated hourly
 
 
