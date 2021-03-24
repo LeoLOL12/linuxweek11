@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# ACIT2420
+# Week 11 Lab
+# Weather script
+# Script Name: weather_check 
+
+# Name: Kit Ho, Li (Leo)
+# SID: A01226711
+######################################
+
+# Get the weather report for your current location
+curl wttr.in > weather.txt
+
+
