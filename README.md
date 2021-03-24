@@ -38,10 +38,10 @@ Linux Week11 lab
 
 
 
-# Check the timer
+## Check the timer
 Run this to check the status of the timer `systemctl status wthr.timer`
 - Make sure it is in active status
 
-# List the timer
+## List the timer
 Run this to list the timer details `systemctl list-timers wthr.timer`
 
