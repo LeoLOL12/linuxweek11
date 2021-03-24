@@ -12,11 +12,11 @@ Usage: Check weather of the current location (based on IP address) by using wttr
 
 
 # Service
-Filename: wthr.service
-Usage: A service to execute script weather_chk
+- Filename: wthr.service
+- Usage: A service to execute script weather_chk
 
 1. Copy the wthr.service to /etc/systemd/system
-`sudo cp wthr.service /etc/systemd/system`
+- `sudo cp wthr.service /etc/systemd/system`
 
 
 # Timer
